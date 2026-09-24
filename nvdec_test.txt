@@ -1,0 +1,4 @@
+[window]
+size=1280x720
+[queue]
+0|0|clips/test_h264.mp4

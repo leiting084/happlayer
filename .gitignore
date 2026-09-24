@@ -1,0 +1,25 @@
+# 构建产物
+build/
+dist/
+out/
+
+# 第三方依赖（不入库，获取方式见 README「第三方依赖」）
+deps/
+
+# 测试素材（720p 测试片用 make_test_clips.bat 生成；4K 压测素材见 README）
+clips/
+
+# 运行日志与本地状态
+logs/
+.venv/
+state.json
+
+# 本地工具与工作区配置
+.claude/
+.serena/
+.spec-workflow/
+
+# 备份与临时文件
+layers.txt.bak
+*.log
+*.tmp

@@ -1,0 +1,31 @@
+# 压测配置：2 队列 × 10 层 4K HAP
+# 每队列 10 层全部 0 秒同时入场、不循环（4 秒）→ 队列 4 秒一轮，两队列交替
+[window]
+size=3840x2160
+pos=0,0
+monitor=1
+borderless=1
+
+[queue]
+0|0|C:/hap4k_clips/clip00_bottom.mov
+0|0|C:/hap4k_clips/clip01.mov
+0|0|C:/hap4k_clips/clip02.mov
+0|0|C:/hap4k_clips/clip03.mov
+0|0|C:/hap4k_clips/clip04.mov
+0|0|C:/hap4k_clips/clip05.mov
+0|0|C:/hap4k_clips/clip06.mov
+0|0|C:/hap4k_clips/clip07.mov
+0|0|C:/hap4k_clips/clip08.mov
+0|0|C:/hap4k_clips/clip09.mov
+
+[queue]
+0|0|C:/hap4k_clips/clip00_bottom.mov
+0|0|C:/hap4k_clips/clip09.mov
+0|0|C:/hap4k_clips/clip08.mov
+0|0|C:/hap4k_clips/clip07.mov
+0|0|C:/hap4k_clips/clip06.mov
+0|0|C:/hap4k_clips/clip05.mov
+0|0|C:/hap4k_clips/clip04.mov
+0|0|C:/hap4k_clips/clip03.mov
+0|0|C:/hap4k_clips/clip02.mov
+0|0|C:/hap4k_clips/clip01.mov
